@@ -1,5 +1,5 @@
 # Rust BPP
-This is an example implementation of the Bailey-Borwein-Plouffe (BPP) formula and specializations, including the *spigot*, to generate the $n$<sup>th</sup> hexidecimal value $\pi$, and thus $\pi$ itself (at least until you run out of computing resources :grin:).
+This is an example implementation of the Bailey-Borwein-Plouffe (BPP) formula and specializations, including the *spigot*, to generate the $n$<sup>th</sup> hexidecimal (decimal) value of $\pi$, and thus $\pi$ itself (at least until you run out of computing resources :grin:).
 
 This much more computationally cheap compared to other methods that must include preceding digits, but still is linearithmic (the further the value is, the longer it takes): $O(n\log n)$
 
@@ -11,7 +11,7 @@ This gave rise to specializations in the formula optimized for computing ($s$, $
 
 $`{\displaystyle P(s,b,m,A)=\sum _{k=0}^{\infty }\left[{\frac {1}{b^{k}}}\sum _{j=1}^{m}{\frac {a_{j}}{(mk+j)^{s}}}\right]}`$
 
-Likewise, a spigot algorithim was defined which retrieves the hexidecimal value at position $n$.
+Likewise, a spigot algorithim was defined which retrieves the hexidecimal value at decimal position $n$.
 
 $`{\displaystyle P(s,b,m,A)=\sum _{k=0}^{\infty }\left[{\frac {1}{b^{k}}}\sum _{j=1}^{m}{\frac {a_{j}}{(mk+j)^{s}}}\right]}`$
 
