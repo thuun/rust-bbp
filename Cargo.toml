@@ -1,0 +1,8 @@
+[package]
+name = "bbp"
+description = "A simple implementation of of the Bailey-Borwein-Plouffe formula to calculate the nth hexidecimal digit of pi."
+version = "0.1.0"
+authors = ["Thuun Thuunar <146863849+thuun@users.noreply.github.com>"]
+edition = "2021"
+
+[dependencies]
