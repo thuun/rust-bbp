@@ -1,8 +1,11 @@
 [package]
 name = "bbp"
 description = "A simple implementation of of the Bailey-Borwein-Plouffe formula to calculate the nth hexidecimal digit of pi."
+readme = "README.md"
 version = "0.1.0"
 authors = ["Thuun Thuunar <146863849+thuun@users.noreply.github.com>"]
+repository = "https://github.com/thuun/rust-bbp"
+license = "Unlicense"
 edition = "2021"
 
 [dependencies]
