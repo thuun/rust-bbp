@@ -9,7 +9,7 @@ ${\displaystyle \pi =\sum _{k=0}^{\infty }\left[{\frac {1}{16^{k}}}\left({\frac 
 
 This gave rise to specializations in the formula optimized for computing ($s$, $b$, $m$, & $A$ are `integers`):    
 
-${\displaystyle P(s,b,m,A)=\sum _{k=0}^{\infty }\left[{\frac {1}{b^{k}}}\sum _{j=1}^{m}{\frac {a_{j}}{(mk+j)^{s}}}\right]}$
+${\displaystyle P(s,b,m,A)=\sum _{k=0}^{\infty }\left[{\frac {1}{b^{k}}}\sum _{j=1}^{m}{\frac {a_{j}}{(mk+j)^{s}}}\right],}$
 
 Likewise, a spigot algorithim was defined which retrieves the hexidecimal value at position $n$.
 
