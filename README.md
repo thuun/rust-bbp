@@ -1,7 +1,7 @@
 # Rust BPP
 This is an example implementation of the Bailey-Borwein-Plouffe (BPP) formula and specializations, including the *spigot*, to generate the $n$<sup>th</sup> hexidecimal value $\pi$, and thus $\pi$ itself (at least until you run out of computing resources :grin:).
 
-This much more computationally cheap compared to other methods that calculate $\pi$ but must include preceding digits, but still is linearithmic (the further the value is, the longer it takes): $O(n\log n)$
+This much more computationally cheap compared to other methods that must include preceding digits, but still is linearithmic (the further the value is, the longer it takes): $O(n\log n)$
 
 The formula discovered in 1995 is:    
 
